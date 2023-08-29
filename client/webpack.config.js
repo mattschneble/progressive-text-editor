@@ -18,7 +18,34 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      
+      // Add plugin to generate HTML file
+      new HtmlWebpackPlugin({
+        template: './index.html',
+        title: "JATE"
+      }),
+      // Add service worker plugin
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'sw.js',
+      }),
+      // Add manifest plugin
+      new WebpackPwaManifest({
+        name: "Just Another Text Editor",
+        short_name: "JATE",
+        description: "A simple text editor",
+        fingerprints: false,
+        background_color: '#225ca3',
+        theme_color: '#272822',
+        start_url: '/',
+        public_path: '/',
+        icons: [
+          {
+            src: path.resolve('src/assets/icon.png'),
+            sizes: [96, 128, 192, 256, 384, 512],
+            destination: path.join('assets', 'icons'),
+          },
+        ],
+      }),
     ],
 
     module: {

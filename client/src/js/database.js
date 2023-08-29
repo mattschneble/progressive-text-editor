@@ -40,10 +40,11 @@ const store = tx.objectStore('jate');
 const request = store.get(1);
 // Wait for the request to complete
 const result = await request;
-// Console log the result 
-console.log('result.value', result);
-// Return the result
-return result?.text;
+// Console log the result if there is one
+result
+  ? console.log('Successfully retrieved content from the database', result.value)
+  : console.log('No content found in the database');
+return result?.value;
 };
 
 initdb();
