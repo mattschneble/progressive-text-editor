@@ -1,4 +1,4 @@
-# progressive-text-editor
+# Progressive Text Editor
 
 ## Table of Contents
 
