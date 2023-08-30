@@ -10,17 +10,17 @@
 * [Acknowledgement](#acknowledgement)
 
 ## Description
-ADD DESCRIPTION HERE. 
+This is a text editor web app that abides by Progressive Web App criteria. This can be used offline or online.
 
 ## Technology (MAKE UPDATES)
 | Technology Used        | Resource URL         |
 | ---------------------- | :-------------------:|
-| MongoDB | [https://www.mongodb.com/](https://www.mongodb.com/) |
-| Mongoose | [https://www.npmjs.com/package/mongoose](https://www.npmjs.com/package/mongoose) |
-| Express.JS | [https://expressjs.com/](https://expressjs.com/) |
+| IndexedDB | [https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) |
+| Node.JS | [https://nodejs.org/en](https://nodejs.org/en) |
+| Express | [https://expressjs.com/](https://expressjs.com/) |
 
 ## Installation
-use "npm i" to install all required npm packages. MAKE ADDITIONAL UPDATES
+use "npm i" to install all required npm packages.
 
 ## Contact
  - Email: mattschneble@gmail.com
