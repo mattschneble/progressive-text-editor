@@ -30,4 +30,4 @@ use "npm i" to install all required npm packages.
 There is no license associated with this code.
 
 ## Acknowledgement
-I would like to thank June Moon, Joel Longares, Sonam Sherpa and Kayla Datte for helping me debug issues.
+I would like to thank June Moon, Jay Liu, Sonam Sherpa and Kayla Datte for helping me debug issues. I would also like to thank Shaun, Royce and Jon from AskBCS for their assistance when needed.
