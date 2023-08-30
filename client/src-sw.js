@@ -1,5 +1,5 @@
 const { warmStrategyCache } = require('workbox-recipes');
-const { CacheFirst } = require('workbox-strategies');
+const { CacheFirst, CacheNew } = require('workbox-strategies');
 const { registerRoute } = require('workbox-routing');
 const { CacheableResponsePlugin } = require('workbox-cacheable-response');
 const { ExpirationPlugin } = require('workbox-expiration');
@@ -31,7 +31,7 @@ registerRoute(
   // Create function to filter requests designated for caching
   ({ request }) => ["style", "script", "worker"].includes(request.destination),
   // Create a cache strategy
-  new CacheNow({
+  new CacheNew({
     CacheFirst:  "my-cache",
     plugins: [
       new CacheableResponsePlugin({
