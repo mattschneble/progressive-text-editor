@@ -12,7 +12,11 @@
 ## Description
 This is a text editor web app that abides by Progressive Web App criteria. This can be used offline or online.
 
-## Technology (MAKE UPDATES)
+Deployed App: [PWA](https://fathomless-brushlands-17288-cc4c35c614a6.herokuapp.com/)
+
+GIF: ![DEMO:](./assets/PWA_Text.gif)
+
+## Technology
 | Technology Used        | Resource URL         |
 | ---------------------- | :-------------------:|
 | IndexedDB | [https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) |
